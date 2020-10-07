@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Dog, {anotherFn, exampleFn} from './App';
 import * as serviceWorker from './serviceWorker';
+
+
+// anotherFn
+
+exampleFn()
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Dog />
   </React.StrictMode>,
   document.getElementById('root')
 );

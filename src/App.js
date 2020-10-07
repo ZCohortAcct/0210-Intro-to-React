@@ -2,6 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+export function exampleFn() {
+  console.log('from app file')
+}
+
+
+export const anotherFn = () => {
+  console.log('from antherFn function')
+}
+
 function App() {
   return (
     <div className="App">
@@ -23,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
